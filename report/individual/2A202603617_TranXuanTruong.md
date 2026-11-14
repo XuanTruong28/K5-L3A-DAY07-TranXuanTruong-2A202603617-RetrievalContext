@@ -32,10 +32,10 @@
 | **Baseline** | TF-IDF (top_k=3, budget=800) | Mốc đối chứng offline | dev | 10/15 (66.67%) | 12/15 (80.00%) | 5/15 (33.33%) | ~0.03s / $0 |
 | **Phương pháp 2** | Dense ChromaDB (top_k=3, budget=1200) | So khớp vector ngữ nghĩa | dev | 5/15 (33.33%) | 10/15 (66.67%) | 5/15 (33.33%) | ~0.10s / $0 |
 | **Phương pháp 3** | Hybrid RRF (top_k=3, budget=1200) | Kết hợp Dense + BM25 RRF | dev | 7/15 (46.67%) | 12/15 (80.00%) | 7/15 (46.67%) | ~0.15s / $0 |
-| **Cải thiện 1** | Hybrid RRF (top_k=3, Tăng budget=2400) | *Giả thuyết:* Ngăn cắt cụt chunk rank 3 | dev | 7/15 (46.67%) | 12/15 (80.00%) | **12/15 (80.00%)** | ~0.15s / $0 |
-| **Cải thiện 2** | Hybrid RRF (Tăng top_k=5, budget=2400) | *Giả thuyết:* Bắt các thuật ngữ sâu rank 4-5 | dev | 7/15 (46.67%) | **13/15 (86.67%)** | **12/15 (80.00%)** | ~0.20s / $0 |
-| **Cấu hình đã chọn**| Hybrid RRF (top_k=5, budget=2400) | Cấu hình tối ưu đánh giá độc lập | **test** | **3/5 (60.00%)** | **5/5 (100.0%)** | **5/5 (100.0%)** | ~0.10s / $0 |
-| **Baseline** | TF-IDF (top_k=3, budget=800) | Mốc đối chứng offline trên test | **test** | 2/5 (40.00%) | 5/5 (100.0%) | 2/5 (40.00%) | ~0.03s / $0 |
+| **Cải thiện 1** | Hybrid RRF (top_k=3, Tăng budget=2400) | *Giả thuyết:* Ngăn cắt cụt chunk rank 3 | dev | 7/15 (46.67%) | 12/15 (80.00%) | 12/15 (80.00%) | ~0.15s / $0 |
+| **Cải thiện 2** | Hybrid RRF (Tăng top_k=5, budget=2400) | *Giả thuyết:* Bắt các thuật ngữ sâu rank 4-5 | dev | 7/15 (46.67%) | 13/15 (86.67%) | 12/15 (80.00%) | ~0.20s / $0 |
+| **Cấu hình đã chọn**| Hybrid RRF (top_k=5, budget=2400) | Cấu hình tối ưu đánh giá độc lập | **test** | **3/5 (60.00%)** | **5/5 (100.0%)** | **5/5 (100.0%)** | **~0.10s / $0** |
+| **Baseline** | TF-IDF (top_k=3, budget=800) | Mốc đối chứng offline trên test | test | 2/5 (40.00%) | 5/5 (100.0%) | 2/5 (40.00%) | ~0.03s / $0 |
 
 ### Phân tích 2 ca lỗi trên Dev và Nguyên nhân:
 1. **Ca lỗi 1 — Bị nghẽn cổ chai do Context Budget (Câu `q05`):**
@@ -58,7 +58,7 @@
 | Cấu hình / split | Tool use | Số lượt gọi TB | Grounded answer (TB/2) | Citation hợp lệ | Câu có citation | Abstention đúng | Từ chối nhầm |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Dev - Trước cải tiến** (top-k=3, budget=1200) | 15/15 (100%) | 1.0 | 1.07 / 2 | 8/8 (100%) | 8/15 (53.3%) | Chưa kiểm tra | 7/15 (46.7%) |
-| **Dev - Sau cải tiến** (top-k=5, budget=2400) | 17/17 (100%) | 1.0 | 1.73 / 2 | 13/13 (100%) | 13/15 (86.7%) | **2/2 (100%)** | **2/15 (13.3%)** |
+| **Dev - Sau cải tiến** (top-k=5, budget=2400) | 17/17 (100%) | 1.0 | 1.73 / 2 | 13/13 (100%) | 13/15 (86.7%) | 2/2 (100%) | 2/15 (13.3%) |
 | **Test - Cấu hình chọn** (top-k=5, budget=2400) | 7/7 (100%) | 1.0 | **2.00 / 2** | 5/5 (100%) | **5/5 (100%)** | **2/2 (100%)** | **0/5 (0%)** |
 
 ### 3 Ca điển hình minh họa từ Trace:
