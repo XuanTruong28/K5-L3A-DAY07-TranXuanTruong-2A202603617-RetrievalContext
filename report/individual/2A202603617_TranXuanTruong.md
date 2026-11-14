@@ -107,10 +107,10 @@ Xây dựng bộ benchmark riêng biệt gồm đúng **48 câu hỏi** độc l
 | 📊 **Bảng (Table)** | **6 / 6** | **100.0%** | Tối thiểu 6 câu | **Đạt ✅** |
 | 🖼️ **Ảnh, sơ đồ (Figure)** | **5 / 5** | **100.0%** | Tối thiểu 5 câu | **Đạt ✅** |
 | 📈 **Biểu đồ (Chart)** | **5 / 5** | **100.0%** | Tối thiểu 5 câu | **Đạt ✅** |
-| 🔗 **Multi-hop** | **3 / 4** | **75.0%** | Tối thiểu 4 câu | **Khá Đạt** |
+| 🔗 **Multi-hop** | **3 / 4** | **75.0%** | Tối thiểu 4 câu | **Khá** |
 | 📝 **Văn bản (Text)** | **4 / 4** | **100.0%** | Tối thiểu 4 câu | **Đạt ✅** |
 | 🚫 **Thiếu bằng chứng (Abstention)** | **6 / 6** | **100.0%** | Tối thiểu 6 câu | **Đạt ✅** |
-| **TOÀN BỘ BỘ TEST** | **29 / 30** | **96.7%** | **Tối thiểu >= 90% (27/30)** | **ĐẠT ✅** |
+| **TOÀN BỘ BỘ TEST** | **29 / 30** | **96.7%** | **Tối thiểu >= 90% (27/30)** | **Đạt ✅** |
 
 - **Tổng số lỗi hệ thống / timeout / crash:** **0 lỗi** (Tất cả 30/30 câu đều hoàn tất và lưu trace thành công).
 - **Tổng thời gian chạy:** 411.86s (Trung bình 13.73s / câu qua 2 lượt tương tác Agent).
