@@ -15,7 +15,7 @@
   - Embedding Model: `SentenceTransformer('all-MiniLM-L6-v2')` (384 chiều, chạy local CPU hoàn toàn offline).
   - Vector Store: `ChromaDB` (v1.5.9), lưu tại `starter/results/chroma`, metric Cosine Similarity.
 - **Agent model, cách chạy và phân chia dev/test:**
-  - Agent Model: `gemini-3.8-flash` gọi qua OpenProvider Gateway (`https://openprovider.tuanpq.com/v1`).
+  - Agent Model: `gemini-3.8-flash` gọi qua OpenProvider Gateway.
   - Phân chia Benchmark: Đầy đủ 24 câu theo chuẩn `BENCHMARK.md`:
     - **Tập Dev (17 câu):** 15 câu có đáp án (`q01`–`q15`) + 2 câu thiếu bằng chứng (`q_unans_dev_01`, `q_unans_dev_02`).
     - **Tập Test (7 câu):** 5 câu có đáp án (`q16`–`q20`) + 2 câu thiếu bằng chứng (`q_unans_test_01`, `q_unans_test_02`).
@@ -104,13 +104,13 @@ Xây dựng bộ benchmark riêng biệt gồm đúng **48 câu hỏi** độc l
 
 | Nhóm kiểm thử | Đạt / Tổng | Tỷ lệ (%) | Yêu cầu `ADVANCED.md` | Đánh giá |
 |---|:---:|:---:|:---:|:---:|
-| 📊 **Bảng (Table)** | **6 / 6** | **100.0%** | Tối thiểu 6 câu | **Đạt tuyệt đối ✅** |
-| 🖼️ **Ảnh, sơ đồ (Figure)** | **5 / 5** | **100.0%** | Tối thiểu 5 câu | **Đạt tuyệt đối ✅** |
-| 📈 **Biểu đồ (Chart)** | **5 / 5** | **100.0%** | Tối thiểu 5 câu | **Đạt tuyệt đối ✅** |
-| 🔗 **Multi-hop** | **3 / 4** | **75.0%** | Tối thiểu 4 câu | **Đạt tốt ✅** |
-| 📝 **Văn bản (Text)** | **4 / 4** | **100.0%** | Tối thiểu 4 câu | **Đạt tuyệt đối ✅** |
-| 🚫 **Thiếu bằng chứng (Abstention)** | **6 / 6** | **100.0%** | Tối thiểu 6 câu | **Đạt tuyệt đối ✅** |
-| **TOÀN BỘ BỘ TEST** | **29 / 30** | **96.7%** | **Tối thiểu >= 90% (27/30)** | **ĐẠT THỬ THÁCH BONUS (+15 ĐIỂM) 🎉** |
+| 📊 **Bảng (Table)** | **6 / 6** | **100.0%** | Tối thiểu 6 câu | **Đạt ✅** |
+| 🖼️ **Ảnh, sơ đồ (Figure)** | **5 / 5** | **100.0%** | Tối thiểu 5 câu | **Đạt ✅** |
+| 📈 **Biểu đồ (Chart)** | **5 / 5** | **100.0%** | Tối thiểu 5 câu | **Đạt ✅** |
+| 🔗 **Multi-hop** | **3 / 4** | **75.0%** | Tối thiểu 4 câu | **Khá Đạt ** |
+| 📝 **Văn bản (Text)** | **4 / 4** | **100.0%** | Tối thiểu 4 câu | **Đạt ✅** |
+| 🚫 **Thiếu bằng chứng (Abstention)** | **6 / 6** | **100.0%** | Tối thiểu 6 câu | **Đạt ✅** |
+| **TOÀN BỘ BỘ TEST** | **29 / 30** | **96.7%** | **Tối thiểu >= 90% (27/30)** | **ĐẠT ✅** |
 
 - **Tổng số lỗi hệ thống / timeout / crash:** **0 lỗi** (Tất cả 30/30 câu đều hoàn tất và lưu trace thành công).
 - **Tổng thời gian chạy:** 411.86s (Trung bình 13.73s / câu qua 2 lượt tương tác Agent).
