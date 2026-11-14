@@ -1,0 +1,348 @@
+{
+  "Hybrid (Dense + BM25 RRF)": {
+    "n_answerable": 24,
+    "hit1": 13,
+    "hit1_rate": 54.17,
+    "hit3": 19,
+    "hit3_rate": 79.17,
+    "context_rate": 79.17,
+    "logs": [
+      {
+        "id": "adv_test_tbl_01",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p27_b000",
+          "fao_seaweed_guide_p27_b005",
+          "fao_seaweed_guide_p22_b005",
+          "fao_seaweed_guide_p26_b002",
+          "fao_seaweed_guide_p71_b004",
+          "fao_seaweed_guide_p27_b001"
+        ]
+      },
+      {
+        "id": "adv_test_tbl_02",
+        "hit1": false,
+        "hit3": false,
+        "context_hit": false,
+        "top_ids": [
+          "fao_seaweed_guide_p48_b002",
+          "fao_seaweed_guide_p34_b002",
+          "fao_seaweed_guide_p54_b004",
+          "fao_seaweed_guide_p48_b005",
+          "fao_seaweed_guide_p34_b000",
+          "fao_seaweed_guide_p71_b005"
+        ]
+      },
+      {
+        "id": "adv_test_tbl_03",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p37_b003",
+          "fao_seaweed_guide_p36_b000",
+          "fao_seaweed_guide_p37_b002",
+          "fao_seaweed_guide_p60_b005",
+          "fao_seaweed_guide_p34_b000",
+          "fao_seaweed_guide_p37_b000"
+        ]
+      },
+      {
+        "id": "adv_test_tbl_04",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p37_b003",
+          "fao_seaweed_guide_p60_b005",
+          "fao_seaweed_guide_p37_b000",
+          "fao_seaweed_guide_p14_b003",
+          "fao_seaweed_guide_p28_b002",
+          "fao_seaweed_guide_p60_b001"
+        ]
+      },
+      {
+        "id": "adv_test_tbl_05",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p48_b000",
+          "fao_seaweed_guide_p16_b004",
+          "fao_seaweed_guide_p39_b000",
+          "fao_seaweed_guide_p39_b001",
+          "fao_seaweed_guide_p16_b003",
+          "fao_seaweed_guide_p25_b004"
+        ]
+      },
+      {
+        "id": "adv_test_tbl_06",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p61_b001",
+          "fao_seaweed_guide_p60_b001",
+          "fao_seaweed_guide_p54_b004",
+          "fao_seaweed_guide_p60_b005",
+          "fao_seaweed_guide_p61_b002",
+          "fao_seaweed_guide_p56_b001"
+        ]
+      },
+      {
+        "id": "adv_test_fig_01",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p21_b000",
+          "fao_seaweed_guide_p32_b000",
+          "fao_seaweed_guide_p90_b003",
+          "fao_seaweed_guide_p65_b003",
+          "fao_seaweed_guide_p91_b001",
+          "fao_seaweed_guide_p33_b005"
+        ]
+      },
+      {
+        "id": "adv_test_fig_02",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p25_b004",
+          "fao_seaweed_guide_p26_b002",
+          "fao_seaweed_guide_p25_b001",
+          "fao_seaweed_guide_p25_b003",
+          "fao_seaweed_guide_p25_b000",
+          "fao_seaweed_guide_p109_b002"
+        ]
+      },
+      {
+        "id": "adv_test_fig_03",
+        "hit1": false,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p33_b001",
+          "fao_seaweed_guide_p29_b000",
+          "fao_seaweed_guide_p31_b000",
+          "fao_seaweed_guide_p33_b000",
+          "fao_seaweed_guide_p29_b003",
+          "fao_seaweed_guide_p51_b002"
+        ]
+      },
+      {
+        "id": "adv_test_fig_04",
+        "hit1": false,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p30_b001",
+          "fao_seaweed_guide_p31_b000",
+          "fao_seaweed_guide_p32_b000",
+          "fao_seaweed_guide_p37_b000",
+          "fao_seaweed_guide_p33_b000",
+          "fao_seaweed_guide_p36_b000"
+        ]
+      },
+      {
+        "id": "adv_test_fig_05",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p32_b000",
+          "fao_seaweed_guide_p30_b002",
+          "fao_seaweed_guide_p33_b002",
+          "fao_seaweed_guide_p18_b005",
+          "fao_seaweed_guide_p34_b001",
+          "fao_seaweed_guide_p33_b000"
+        ]
+      },
+      {
+        "id": "adv_test_cht_01",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p32_b000",
+          "fao_seaweed_guide_p52_b001",
+          "fao_seaweed_guide_p51_b002",
+          "fao_seaweed_guide_p76_b002",
+          "fao_seaweed_guide_p118_b001",
+          "fao_seaweed_guide_p74_b000"
+        ]
+      },
+      {
+        "id": "adv_test_cht_02",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p29_b003",
+          "fao_seaweed_guide_p33_b002",
+          "fao_seaweed_guide_p33_b001",
+          "fao_seaweed_guide_p29_b000",
+          "fao_seaweed_guide_p30_b002",
+          "fao_seaweed_guide_p29_b001"
+        ]
+      },
+      {
+        "id": "adv_test_cht_03",
+        "hit1": false,
+        "hit3": false,
+        "context_hit": false,
+        "top_ids": [
+          "fao_seaweed_guide_p51_b003",
+          "fao_seaweed_guide_p51_b000",
+          "fao_seaweed_guide_p51_b002",
+          "fao_seaweed_guide_p52_b001",
+          "fao_seaweed_guide_p52_b000",
+          "fao_seaweed_guide_p53_b000"
+        ]
+      },
+      {
+        "id": "adv_test_cht_04",
+        "hit1": false,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p51_b002",
+          "fao_seaweed_guide_p52_b001",
+          "fao_seaweed_guide_p52_b000",
+          "fao_seaweed_guide_p53_b004",
+          "fao_seaweed_guide_p53_b001",
+          "fao_seaweed_guide_p51_b001"
+        ]
+      },
+      {
+        "id": "adv_test_cht_05",
+        "hit1": false,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p73_b002",
+          "fao_seaweed_guide_p75_b003",
+          "fao_seaweed_guide_p77_b001",
+          "fao_seaweed_guide_p83_b003",
+          "fao_seaweed_guide_p74_b000",
+          "fao_seaweed_guide_p73_b001"
+        ]
+      },
+      {
+        "id": "adv_test_hop_01",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p21_b000",
+          "fao_seaweed_guide_p14_b003",
+          "fao_seaweed_guide_p37_b000",
+          "fao_seaweed_guide_p14_b002",
+          "fao_seaweed_guide_p107_b003",
+          "fao_seaweed_guide_p32_b000"
+        ]
+      },
+      {
+        "id": "adv_test_hop_02",
+        "hit1": false,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p28_b001",
+          "fao_seaweed_guide_p65_b002",
+          "fao_seaweed_guide_p21_b000",
+          "fao_seaweed_guide_p27_b005",
+          "fao_seaweed_guide_p48_b001",
+          "fao_seaweed_guide_p18_b001"
+        ]
+      },
+      {
+        "id": "adv_test_hop_03",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p29_b003",
+          "fao_seaweed_guide_p31_b000",
+          "fao_seaweed_guide_p30_b001",
+          "fao_seaweed_guide_p33_b002",
+          "fao_seaweed_guide_p30_b002",
+          "fao_seaweed_guide_p29_b000"
+        ]
+      },
+      {
+        "id": "adv_test_hop_04",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p76_b001",
+          "fao_seaweed_guide_p75_b003",
+          "fao_seaweed_guide_p73_b000",
+          "fao_seaweed_guide_p80_b001",
+          "fao_seaweed_guide_p73_b001",
+          "fao_seaweed_guide_p74_b000"
+        ]
+      },
+      {
+        "id": "adv_test_txt_01",
+        "hit1": false,
+        "hit3": false,
+        "context_hit": false,
+        "top_ids": [
+          "fao_seaweed_guide_p15_b000",
+          "fao_seaweed_guide_p105_b000",
+          "fao_seaweed_guide_p110_b000",
+          "fao_seaweed_guide_p104_b005",
+          "fao_seaweed_guide_p103_b000",
+          "fao_seaweed_guide_p85_b001"
+        ]
+      },
+      {
+        "id": "adv_test_txt_02",
+        "hit1": false,
+        "hit3": true,
+        "context_hit": true,
+        "top_ids": [
+          "fao_seaweed_guide_p40_b000",
+          "fao_seaweed_guide_p42_b000",
+          "fao_seaweed_guide_p89_b004",
+          "fao_seaweed_guide_p15_b004",
+          "fao_seaweed_guide_p39_b001",
+          "fao_seaweed_guide_p18_b005"
+        ]
+      },
+      {
+        "id": "adv_test_txt_03",
+        "hit1": false,
+        "hit3": false,
+        "context_hit": false,
+        "top_ids": [
+          "fao_seaweed_guide_p13_b003",
+          "fao_seaweed_guide_p85_b000",
+          "fao_seaweed_guide_p13_b004",
+          "fao_seaweed_guide_p85_b001",
+          "fao_seaweed_guide_p101_b004",
+          "fao_seaweed_guide_p114_b004"
+        ]
+      },
+      {
+        "id": "adv_test_txt_04",
+        "hit1": false,
+        "hit3": false,
+        "context_hit": false,
+        "top_ids": [
+          "fao_seaweed_guide_p86_b003",
+          "fao_seaweed_guide_p86_b000",
+          "fao_seaweed_guide_p16_b005",
+          "fao_seaweed_guide_p105_b004",
+          "fao_seaweed_guide_p87_b001",
+          "fao_seaweed_guide_p89_b005"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What are the three broad groups into which seaweeds can be classified based on pigmentation?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Which country is the largest producer of edible seaweeds, and what is its harvest volume?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "According to Chapter 2, what are the two main genera of seaweeds from which most agar is extracted?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Which seaweed species is the main source of agar in India?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Where has Gracilaria been grown in lagoons and ponds in recent years according to Chapter 2?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What are the two principal processes used to remove water from gel in agar production?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Why is the freeze-thaw process relatively expensive in agar production?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "According to Chapter 4, which brown seaweed genus harvested for alginate grows on the Pacific coast of North America?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Under what circumstances is Sargassum harvested for alginate extraction?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What chemical substance is used in carrageenan extraction to increase gel strength?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What are the two major seaweed species cultivated as raw materials for carrageenan production?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What is the characteristic feature of semi-refined carrageenan (SRC) processing method?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What rank of production does nori have in Japan list of marine aquaculture products?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "What is the nutritional value of Porphyra (nori) in terms of protein content?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Which three hydrocolloids extracted from red and brown seaweeds are commercially important?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What has caused a revival of interest in using seaweeds for agricultural fertilizers?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "According to Chapter 2, why are species of Pterocladia collected and where are they mainly harvested?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "In what zone does the brown seaweed Laminaria saccharina typically grow?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Why can lambda carrageenans not be processed by methods relying on potassium gel formation?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Which countries have a multi-century tradition of using seaweeds as direct human food?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_unans_dev_01",
+    "split": "dev",
+    "question": "What are the safety guidelines for growing commercial seaweeds in hydroponic chambers on Mars?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu chỉ khảo sát các hoạt động nuôi trồng rong biển tại Trái Đất, hoàn toàn không có dữ liệu về Sao Hỏa."
+  },
+  {
+    "id": "q_unans_dev_02",
+    "split": "dev",
+    "question": "What are the European Union regulations regarding seaweed aquaculture licensing enacted in the year 2026?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu FAO được xuất bản năm 2003, không chứa các văn bản pháp quy ban hành năm 2026."
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "question": "How is CRISPR-Cas9 genome editing specifically applied to improve the carrageenan yield in Kappaphycus alvarezii?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu chỉ thảo luận về chọn lọc tự nhiên và nhân giống sinh dưỡng, không có phương pháp chỉnh sửa gen CRISPR."
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "question": "What is the market share of sodium alginate used as an electrolyte binder in lithium-ion batteries for electric vehicles?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu chỉ bao gồm các ứng dụng truyền thống (dệt nhuộm, thực phẩm, dược phẩm), không có ứng dụng pin xe điện."
+  }
+]

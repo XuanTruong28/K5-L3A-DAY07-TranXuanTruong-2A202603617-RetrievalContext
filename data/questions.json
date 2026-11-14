@@ -1,0 +1,299 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What are the three broad groups into which seaweeds can be classified based on pigmentation?",
+    "expected_answer": "Brown (Phaeophyceae), red (Rhodophyceae) and green (Chlorophyceae).",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 13,
+        "evidence": "Seaweeds can be classified into three broad groups based on pigmentation: brown, red\nand green."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Which country is the largest producer of edible seaweeds, and what is its harvest volume?",
+    "expected_answer": "China is the largest producer, harvesting about 5 million wet tonnes.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 14,
+        "evidence": "China is the largest producer of edible seaweeds, harvesting about 5 million wet tonnes."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "According to Chapter 2, what are the two main genera of seaweeds from which most agar is extracted?",
+    "expected_answer": "Gelidium and Gracilaria.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 21,
+        "evidence": "Most agar is extracted from species of Gelidium (Figure 1) and Gracilaria (Figure 2)."
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter 2: Seaweeds used as a source of agar"
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Which seaweed species is the main source of agar in India?",
+    "expected_answer": "Gelidiella acerosa.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 21,
+        "evidence": "Gelidiella acerosa is the\nmain source of agar in India."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Where has Gracilaria been grown in lagoons and ponds in recent years according to Chapter 2?",
+    "expected_answer": "In Viet Nam, grown in lagoons and ponds in both the north and south.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 23,
+        "evidence": "A more concerted effort appears to have been made in Viet Nam in recent\nyears, with a variety of species being grown in lagoons and ponds in both the north and\nsouth."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What are the two principal processes used to remove water from gel in agar production?",
+    "expected_answer": "The freeze-thaw process and squeezing it out using pressure.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 29,
+        "evidence": "Then the water is removed from the gel,\neither by a freeze-thaw process or by squeezing it out using pressure."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Why is the freeze-thaw process relatively expensive in agar production?",
+    "expected_answer": "Because of high refrigeration and energy costs.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 30,
+        "evidence": "Because of the refrigeration costs, this freeze-thaw\nprocess is relatively expensive, compared to the alternative described next"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "According to Chapter 4, which brown seaweed genus harvested for alginate grows on the Pacific coast of North America?",
+    "expected_answer": "Macrocystis.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 39,
+        "evidence": "Brown seaweeds that fulfil the above criteria are species of Ascophyllum, Durvillaea,\nEcklonia, Laminaria, Lessonia, Macrocystis and Sargassum, although the last, Sargassum,\nis only used when nothing else is available"
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter 4: Seaweeds used as a source of alginate"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Under what circumstances is Sargassum harvested for alginate extraction?",
+    "expected_answer": "Only when nothing else is available, because its alginate is usually of low viscosity and poor gel strength.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 39,
+        "evidence": "although the last, Sargassum,\nis only used when nothing else is available"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "What chemical substance is used in carrageenan extraction to increase gel strength?",
+    "expected_answer": "Alkali.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 75,
+        "evidence": "Alkali is used because it causes a chemical change that leads to increased gel\nstrength in the final product."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What are the two major seaweed species cultivated as raw materials for carrageenan production?",
+    "expected_answer": "Kappaphycus alvarezii and Eucheuma denticulatum.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 63,
+        "evidence": "Most carrageenan is extracted from Kappaphycus alvarezii and Eucheuma denticulatum."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What is the characteristic feature of semi-refined carrageenan (SRC) processing method?",
+    "expected_answer": "The carrageenan is never actually extracted from the seaweed.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 75,
+        "evidence": "This is the method in which the\ncarrageenan is never actually extracted from the seaweed."
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What rank of production does nori have in Japan list of marine aquaculture products?",
+    "expected_answer": "Nori has the highest production among products from marine culture in Japan.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 85,
+        "evidence": "In\nJapan’s list of products from marine culture, nori has the highest production, followed by\noysters, yellowtails and wakame"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "What is the nutritional value of Porphyra (nori) in terms of protein content?",
+    "expected_answer": "Porphyra has a high protein content of 30 to 50 percent, of which about 75 percent is digestible.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 86,
+        "evidence": "It is among the most nutritious seaweeds, with a protein content of 30–50 percent, and\nabout 75 percent of that is digestible."
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Which three hydrocolloids extracted from red and brown seaweeds are commercially important?",
+    "expected_answer": "Agar, alginate and carrageenan.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 14,
+        "evidence": "Various red and brown seaweeds are used to produce three hydrocolloids: agar, alginate\nand carrageenan."
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What has caused a revival of interest in using seaweeds for agricultural fertilizers?",
+    "expected_answer": "The rising popularity of organic farming.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 15,
+        "evidence": "Today, with the rising popularity of organic farming, there\nhas been some revival of the industry"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "According to Chapter 2, why are species of Pterocladia collected and where are they mainly harvested?",
+    "expected_answer": "They are closely related to Gelidium and collected as sources of agar, mainly in the Azores (Portugal) and New Zealand.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 21,
+        "evidence": "Closely related to Gelidium are species of Pterocladia, and small quantities of these are\ncollected, mainly in the Azores (Portugal) and New Zealand."
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter 2: Seaweeds used as a source of agar"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "In what zone does the brown seaweed Laminaria saccharina typically grow?",
+    "expected_answer": "In the upper sublittoral zone.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 42,
+        "evidence": "Laminaria saccharina also grows in the upper sublittoral"
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Why can lambda carrageenans not be processed by methods relying on potassium gel formation?",
+    "expected_answer": "Lambda carrageenans do not form gels with potassium and would therefore dissolve and be lost during alkali treatment.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 76,
+        "evidence": "Lambda carrageenans do not form gels with\npotassium and would therefore dissolve and be lost during the alkali treatment."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Which countries have a multi-century tradition of using seaweeds as direct human food?",
+    "expected_answer": "China, Japan, and the Republic of Korea.",
+    "gold": [
+      {
+        "source_id": "fao_seaweed_guide",
+        "page": 85,
+        "evidence": "For several centuries there has been a traditional use of seaweeds as food in China, Japan\nand the Republic of Korea."
+      }
+    ]
+  },
+  {
+    "id": "q_unans_dev_01",
+    "split": "dev",
+    "question": "What are the safety guidelines for growing commercial seaweeds in hydroponic chambers on Mars?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": []
+  },
+  {
+    "id": "q_unans_dev_02",
+    "split": "dev",
+    "question": "What are the European Union regulations regarding seaweed aquaculture licensing enacted in the year 2026?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": []
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "question": "How is CRISPR-Cas9 genome editing specifically applied to improve the carrageenan yield in Kappaphycus alvarezii?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": []
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "question": "What is the market share of sodium alginate used as an electrolyte binder in lithium-ion batteries for electric vehicles?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "gold": []
+  }
+]
